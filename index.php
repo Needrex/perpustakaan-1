@@ -24,7 +24,7 @@
 
    <!--Navbar-->
    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary shadow-sm justify-space-between">
-      <div class="container-fluid bg-light">
+      <div class="container-fluid">
          <div class="nav-brand"><img src="assets/logoNav.png" alt="logo" width="90px"></div>
 
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

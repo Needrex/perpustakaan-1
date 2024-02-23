@@ -21,7 +21,7 @@ $admin = queryReadData("SELECT * FROM admin WHERE id=$id");
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" />
-   <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/de8de52639.js"></script>
    <title>Edit Petugas</title>
    <style>
    body {
@@ -56,7 +56,7 @@ $admin = queryReadData("SELECT * FROM admin WHERE id=$id");
             </div>
             <label for="validationCustom02" class="form-label">Kode Petugas</label>
             <div class="input-group mt-0">
-               <input type="number" class="form-control" id="validationCustom02" value="<?= $item['kode_admin']; ?>"
+               <input type="text" class="form-control" id="validationCustom02" value="<?= $item['kode_admin']; ?>"
                   name="kode_petugas" required />
                <div class="invalid-feedback">Masukkan kode petugas anda!</div>
             </div>
